@@ -10,7 +10,7 @@ body{
 }
 .heading{
     text-align: center;
-    color: white;
+    color: #ffff;
     margin-top: 10px;
     padding: 5px;
 }
@@ -40,6 +40,7 @@ input{
     margin-bottom: 20px;
     margin-top: 10px;
     margin-left: 20px;
+
   }
   
   /* Styling for the second button when hovering over it */
@@ -48,7 +49,7 @@ input{
     background: #62c5ff;
   }
   
-.memesContainer{
+.memeWrapper{
     position: relative;
     top: 20px;
     width: 100%;
@@ -115,3 +116,16 @@ input{
     top:0;
     z-index:999;
 } 
+@media only screen 
+    and (device-width: 375px) 
+    and (device-height: 812px) 
+    and (orientation: portrait)
+    and (orientation: landscape) 
+    and (-webkit-device-pixel-ratio: 3) { }
+
+@media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) 
+    and (orientation: portrait)
+    and (orientation: landscape) 
+    and (-webkit-device-pixel-ratio: 3) { }
